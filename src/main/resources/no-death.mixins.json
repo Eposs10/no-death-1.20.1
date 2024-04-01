@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.eposs.nodeath.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExampleMixin",
+    "NoDeathMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

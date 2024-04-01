@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "no-death",
+	"version": "${version}",
+	"name": "no-death",
+	"description": "Prevents an specific player from dieing.",
+	"authors": [
+		"Eposs"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.eposs.nodeath.Nodeath"
+		]
+	},
+	"mixins": [
+		"no-death.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
